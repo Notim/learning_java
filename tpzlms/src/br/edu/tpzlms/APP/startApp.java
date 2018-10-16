@@ -1,13 +1,17 @@
 package br.edu.tpzlms.APP;
 
 import br.edu.tpzlms.APP.Teacher.controller.TeacherController;
+import br.edu.tpzlms.BLL.services.BLTeacherConsulta;
+
 import java.io.IOException;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
 public class startApp {
-    public static void startApp() throws IOException {
+    public static void startApp()  throws IOException {
+
         var Control = new TeacherController();
+
         var in = new BufferedReader(new InputStreamReader(System.in));
         var out = System.out;
 

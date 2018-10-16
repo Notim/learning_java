@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3cb9b53-90d1-4bfb-8c3a-1f704c0510d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/edu/tpzlms/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpzlms.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/tpzlms/APP/Teacher/controller/TeacherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/tpzlms/APP/Teacher/controller/TeacherController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/tpzlms/APP/Teacher/models/TeacherVW.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/tpzlms/APP/Teacher/models/TeacherVW.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/tpzlms/APP/startApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/tpzlms/APP/startApp.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,13 +61,33 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="1" />
+          <entry key="java" value="1" />
           <entry key="kt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="1" />
           <entry key="Kotlin" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="87" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="87" />
         </counts>
       </usages-collector>
     </session>
@@ -78,7 +97,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/edu/tpzlms/BLL/interfaces/IBLTeacherConsulta.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state relative-caret-position="75">
               <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -87,11 +106,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tpzlms.iml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+            <state relative-caret-position="240">
+              <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -108,11 +127,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/br/edu/tpzlms/APP/startApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+            <state relative-caret-position="90">
+              <caret line="10" column="41" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -121,10 +140,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/tpzlms/BLL/services/BLTeacherConsulta.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="9" column="41" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/edu/tpzlms/APP/Teacher/controller/TeacherController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+            <state relative-caret-position="285">
+              <caret line="19" column="38" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -135,7 +163,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/edu/tpzlms/APP/Teacher/view/chargeConsole.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="225">
               <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -147,7 +175,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/edu/tpzlms/APP/Teacher/view/listConsole.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
+            <state relative-caret-position="180">
               <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -159,7 +187,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/edu/tpzlms/APP/Teacher/models/TeacherVW.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="332">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#338#339#0" expanded="true" />
@@ -192,18 +221,18 @@
         <option value="$PROJECT_DIR$/src/br/edu/tpzlms/APP/home/home.java" />
         <option value="$PROJECT_DIR$/src/br/edu/tpzlms/APP/Teacher/view/list.java" />
         <option value="$PROJECT_DIR$/src/br/edu/tpzlms/BLL/BLTeacherConsulta.java" />
-        <option value="$PROJECT_DIR$/src/br/edu/tpzlms/APP/Teacher/models/TeacherVW.java" />
         <option value="$PROJECT_DIR$/src/br/edu/tpzlms/BLL/interfaces/IBLTeacherConsulta.java" />
         <option value="$PROJECT_DIR$/src/br/edu/tpzlms/UTILS/String/RandonString.java" />
         <option value="$PROJECT_DIR$/src/br/edu/tpzlms/UTILS/String/RandomString.java" />
-        <option value="$PROJECT_DIR$/src/br/edu/tpzlms/APP/Teacher/controller/TeacherController.java" />
         <option value="$PROJECT_DIR$/src/br/edu/tpzlms/BLL/services/BLTeacherConsulta.java" />
         <option value="$PROJECT_DIR$/src/br/edu/tpzlms/APP/Teacher/view/listConsole.java" />
         <option value="$PROJECT_DIR$/src/br/edu/tpzlms/APP/Teacher/view/chargeConsole.java" />
-        <option value="$PROJECT_DIR$/src/br/edu/tpzlms/APP/startApp.java" />
         <option value="$PROJECT_DIR$/src/br/edu/tpzlms/Main.java" />
         <option value="$PROJECT_DIR$/src/br/edu/tpzlms/Main.kt" />
         <option value="$PROJECT_DIR$/tpzlms.iml" />
+        <option value="$PROJECT_DIR$/src/br/edu/tpzlms/APP/Teacher/controller/TeacherController.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/tpzlms/APP/Teacher/models/TeacherVW.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/tpzlms/APP/startApp.java" />
       </list>
     </option>
   </component>
@@ -219,7 +248,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -227,11 +256,101 @@
               <item name="tpzlms" type="b2602c69:ProjectViewProjectNode" />
               <item name="tpzlms" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="tpzlms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tpzlms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tpzlms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tpzlms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tpzlms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tpzlms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tpzlms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tpzlms" type="462c0819:PsiDirectoryNode" />
+              <item name="APP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tpzlms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tpzlms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tpzlms" type="462c0819:PsiDirectoryNode" />
+              <item name="APP" type="462c0819:PsiDirectoryNode" />
+              <item name="Teacher" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tpzlms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tpzlms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tpzlms" type="462c0819:PsiDirectoryNode" />
+              <item name="APP" type="462c0819:PsiDirectoryNode" />
+              <item name="Teacher" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tpzlms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tpzlms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tpzlms" type="462c0819:PsiDirectoryNode" />
+              <item name="APP" type="462c0819:PsiDirectoryNode" />
+              <item name="Teacher" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tpzlms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tpzlms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tpzlms" type="462c0819:PsiDirectoryNode" />
+              <item name="APP" type="462c0819:PsiDirectoryNode" />
+              <item name="Teacher" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tpzlms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tpzlms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tpzlms" type="462c0819:PsiDirectoryNode" />
+              <item name="BLL" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tpzlms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tpzlms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tpzlms" type="462c0819:PsiDirectoryNode" />
+              <item name="BLL" type="462c0819:PsiDirectoryNode" />
+              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tpzlms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tpzlms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tpzlms" type="462c0819:PsiDirectoryNode" />
+              <item name="BLL" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tpzlms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tpzlms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tpzlms" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tpzlms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tpzlms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tpzlms" type="462c0819:PsiDirectoryNode" />
+              <item name="String" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -243,7 +362,7 @@
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="tpzlms" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539380518864" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539644986347" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -299,8 +418,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="21" width="1368" height="748" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25681818" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26439393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -309,7 +429,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32792208" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32792208" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39967638" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -343,23 +463,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/tpzlms/BLL/services/BLTeacherConsulta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/edu/tpzlms/UTILS/String/RandomString.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -373,29 +480,26 @@
     <entry file="file://$PROJECT_DIR$/module_tpzlms.xml" />
     <entry file="file://$PROJECT_DIR$/tpzlms.xml" />
     <entry file="file://$PROJECT_DIR$/tpzlms.properties" />
-    <entry file="file://$PROJECT_DIR$/src/br/edu/tpzlms/APP/startApp.java">
+    <entry file="file://$PROJECT_DIR$/src/br/edu/tpzlms/BLL/interfaces/IBLTeacherConsulta.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        <state relative-caret-position="75">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/tpzlms/APP/Teacher/controller/TeacherController.java">
+    <entry file="file://$PROJECT_DIR$/tpzlms.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="240">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/edu/tpzlms/APP/Teacher/view/chargeConsole.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="225">
           <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -405,29 +509,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/edu/tpzlms/APP/Teacher/view/listConsole.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="180">
           <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/tpzlms/APP/Teacher/models/TeacherVW.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#371#372#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/tpzlms/BLL/interfaces/IBLTeacherConsulta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -444,10 +527,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tpzlms.iml">
+    <entry file="file://$PROJECT_DIR$/src/br/edu/tpzlms/APP/Teacher/models/TeacherVW.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        <state relative-caret-position="332">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/tpzlms/BLL/services/BLTeacherConsulta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="41" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/tpzlms/APP/Teacher/controller/TeacherController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="38" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/tpzlms/APP/startApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

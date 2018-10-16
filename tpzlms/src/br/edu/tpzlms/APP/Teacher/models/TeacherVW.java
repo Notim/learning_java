@@ -12,6 +12,7 @@ public class TeacherVW {
 
     public DALTeacher getTeacher() {
         return Teacher;
+
     }
 
     public void setTeacher(DALTeacher teacher) {
@@ -20,8 +21,10 @@ public class TeacherVW {
 
     public List<DALTeacher> getListTeachers() {
         return listTeachers;
+
     }
     public void setListTeachers(List<DALTeacher> listTeachers) {
         this.listTeachers = listTeachers;
+
     }
 }
