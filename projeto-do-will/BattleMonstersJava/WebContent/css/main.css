@@ -1,0 +1,409 @@
+@import url(http://fonts.googleapis.com/css?family=VT323);
+
+/*
+* Geral
+*/
+html, body {
+  height: 100%;
+}
+
+body {
+  background: url('../img/pattern.png') top left repeat #54A1F1;
+}
+
+#content {
+  height: 100%;
+  padding-top: 5%;
+  width: 970px !important;
+}
+
+#content > #holder {
+  height: 550px;
+  border-radius: 3px;
+  background-color: #A7E7FC;
+  border: 1px solid #001116;
+  -webkit-box-shadow: 0 0 20px 0 rgba(0,0,0,0.25);
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.25);
+}
+
+.footer {
+  color: #fff;
+  text-align: center;
+  margin-top: 10px;
+  font-family: Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.footer a {
+  color: #A7E7FC;
+}
+
+input[type="text"],
+input[type="password"] {
+  font-family: Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #666;
+  text-shadow: none;
+}
+
+::-webkit-input-placeholder {
+  color: #86BED0 !important;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  color: #86BED0 !important;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+  color: #86BED0 !important;
+}
+
+:-ms-input-placeholder {
+  color: #86BED0 !important;
+}
+
+/*
+* Início
+*/
+.home-logo {
+  margin-top: 20px;
+}
+
+.home-login {
+  margin-top: 50px;
+}
+
+/*
+* Cadastro
+*/
+.home-logo {
+  margin-top: 20px;
+}
+
+.home-cadastro {
+  margin-top: 50px;
+}
+
+.home-cadastro form select {
+  color: #86BED0;
+}
+
+.home-cadastro form select.hasValue {
+  color: #666 !important;
+}
+
+.home-cadastro form select option {
+  color: #666 !important;
+}
+
+.home-cadastro form select option[disabled] {
+  color: #86BED0 !important;
+}
+
+/*
+* Batalha
+*/
+.lateral-menu {
+  height: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  border-right: 1px solid #666;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  background: url('../img/pattern.png') top left repeat #ccc;
+}
+
+.lateral-menu .title {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.lateral-menu .each-monster {
+  margin-bottom: 20px;
+}
+
+.lateral-menu .each-monster .photo {
+  padding-right: 0px;
+  text-align: center;
+}
+
+.lateral-menu .each-monster .progress {
+  margin-bottom: 0;
+}
+
+.lateral-menu .each-monster .progress .progress-bar {
+  border-radius: 0
+}
+
+.lateral-menu .each-monster .level,
+.lateral-menu .each-monster .hp {
+	height: 19px;
+    line-height: 19px;
+}
+
+.lateral-menu .each-monster .hp {
+	margin-bottom: 10px;
+}
+
+.lateral-menu .log-holder .each-log .ally {
+	color: #00f;
+	text-align: center;
+}
+
+.lateral-menu .log-holder .each-log .enemy {
+	color: #f00;
+	text-align: center;
+}
+
+.lateral-menu .log-holder .separator {
+	font-weight: bold;
+	text-align: center;
+	width: 100%;
+}
+
+.battle-screen {
+  height: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  background: url('../img/battle/2.png') top left no-repeat;
+}
+
+.battle-screen .enemy-stats,
+.battle-screen .ally-stats,
+.battle-screen .enemy,
+.battle-screen .ally {
+  height: 40%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.battle-screen .enemy {
+  background: url('../img/bases/enemy/1.png') center bottom no-repeat;
+  background-size: 210px;
+  background-position-y: 140px
+}
+
+.battle-screen .ally {
+  background: url('../img/bases/ally/1.png') center bottom no-repeat;
+  background-size: 280px;
+}
+
+.battle-screen .enemy .enemy-image,
+.battle-screen .ally .ally-image {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: 120%;
+  transition: 150ms;
+}
+
+.battle-screen .ally .ally-image{
+	background-size: 140px;
+}
+
+.battle-screen .enemy .enemy-image {
+	background-size: 90px !important;
+}
+
+.battle-screen .enemy .enemy-image {
+  background-position-y: 85%;
+}
+
+.battle-screen .stats .infos {
+	margin-top: 60px;
+    height: 90px;
+    border: 2px solid #666;
+    font-size: 20px;
+    /*font-family: 'VT323';*/
+    background: #f5f6f6; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f5f6f6 0%, #b8bac6 100%, #f5f6f6 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f5f6f6), color-stop(100%,#b8bac6), color-stop(100%,#f5f6f6)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f5f6f6 0%,#b8bac6 100%,#f5f6f6 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f5f6f6 0%,#b8bac6 100%,#f5f6f6 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f5f6f6 0%,#b8bac6 100%,#f5f6f6 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f5f6f6 0%,#b8bac6 100%,#f5f6f6 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f6f6', endColorstr='#f5f6f6',GradientType=0 ); /* IE6-9 */
+}
+
+.battle-screen .enemy-stats .infos {
+	border-left: 0;
+}
+
+.battle-screen .ally-stats .infos {
+	border-right: 0;
+}
+
+.battle-screen .stats .infos .level {
+	text-align: right;
+}
+
+.battle-screen .stats .infos .hp-bar {
+	height: 15px;
+}
+
+.battle-screen .stats .infos .hp-bar .progress {
+	height: 15px;
+	margin-bottom: 0;
+	border: 1px solid #666;
+}
+
+.battle-screen .stats .infos .hp-bar .progress .progress-bar {
+	border-radius: 0
+}
+
+.battle-screen .stats .infos .hp {
+    text-align: right;
+    line-height: 20px;
+    height: 20px;
+    margin-top: 2px;
+}
+
+.battle-screen .actions {
+  height: 20%;
+  padding-left: 0;
+  padding-right: 0;
+  border-top: 2px solid #666;
+}
+
+.battle-screen .actions > .each-button {
+  height: 50%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.battle-screen .actions > .each-button.button-1 {
+  border-bottom: 1px solid #666;
+  border-right: 1px solid #666;
+}
+
+.battle-screen .actions > .each-button.button-2 {
+  border-bottom: 1px solid #666;
+}
+
+.battle-screen .actions > .each-button.button-3 {
+  border-right: 1px solid #666;
+}
+
+.battle-screen .actions > .each-button.button-5 {
+  border: 1px solid #666;
+  display: none;
+  margin-top: 28px;
+}
+
+.battle-screen .actions > .each-button > * {
+  height: 100%;
+  border-radius: 0px;
+}
+
+.battle-screen .submit-name {
+  height: 20%;
+  padding-left: 0;
+  padding-right: 0;
+  border-top: 2px solid #666;
+  display: none;
+}
+
+.battle-screen .submit-name input {
+	margin-top: 10px;
+	text-align: center;
+}
+
+.battle-screen .submit-name > .each-button {
+  height: 50%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* Escolhe inicial */
+.escolhe-inicial {
+}
+
+.escolhe-inicial .each-escolhe-inicial {
+	border: 2px solid #A7E7FC;
+	text-align: center;
+	margin-bottom: 20px;
+	color: #666;
+	border-radius: 5px;
+}
+
+.escolhe-inicial .each-escolhe-inicial.current,
+.escolhe-inicial .each-escolhe-inicial:hover {
+	border-color: #fff;
+	color: #666;
+	text-decoration: none;
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+.escolhe-inicial .each-escolhe-inicial .image {
+	height: 100px;
+	background-size: 60px auto;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.escolhe-inicial .each-escolhe-inicial .nome {
+	text-transform: uppercase;
+}
+
+.escolhe-inicial #nomeEscolhido {
+	text-align: center;
+}
+
+.each-meus-battlemons .exp-block{
+	border: 1px solid #666;
+	border-radius: 5px;
+	margin-top: 7px !important;
+}
+
+.each-meus-battlemons .exp-block .progress-bar {
+	height: 7px;
+	margin-bottom: 0;
+	background-color: #54A1F1 !important;
+	border-radius: 5px;
+}
+
+/* Default */
+
+.marg5 { margin:5px; }
+.margrig5 { margin-right:5px; }
+.marglef5 { margin-left:5px; }
+.margtop5 { margin-top:5px; }
+.margbot5 { margin-bottom:5px; }
+
+.marg10 { margin:10px; }
+.margrig10 { margin-right:10px; }
+.marglef10 { margin-left:10px; }
+.margtop10 { margin-top:10px; }
+.margbot10 { margin-bottom:10px; }
+
+.pad5 { padding:5px; }
+.padrig5 { padding-right:5px; }
+.padlef5 { padding-left:5px; }
+.padtop5 { padding-top:5px; }
+.padbot5 { padding-bottom:5px; }
+
+.pad10 { padding:10px; }
+.padrig10 { padding-right:10px; }
+.padlef10 { padding-left:10px; }
+.padtop10 { padding-top:10px; }
+.padbot10 { padding-bottom:10px; }
+
+.pad20 { padding:20px; }
+.padrig20 { padding-right:20px; }
+.padlef20 { padding-left:20px; }
+.padtop20 { padding-top:20px; }
+.padbot20 { padding-bottom:20px; }
+
+.padtop22 { padding-top:22px; }
+
+.nopad { padding:0px !important; }
+.nopadtop { padding-top:0px !important; }
+.nopadbot { padding-bottom:0px !important; }
+.nopadrig { padding-right:0px !important; }
+.nopadlef { padding-left:0px !important; }
+
+.nomarg{
+	marg: 0px !important;
+}
